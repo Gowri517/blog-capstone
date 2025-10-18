@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "blog-frontend-react",
   "version": "0.1.0",
   "private": true,
@@ -14,28 +15,23 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+=======
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+>>>>>>> 9423a08f9c86b38819cd0e65d27e6c65b2d8469c
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.1"
   }
 }
+
+  
