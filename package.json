@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "name": "blog-frontend-react",
   "version": "0.1.0",
   "private": true,
@@ -15,12 +15,12 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-=======
+
   "name": "blog-backend",
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
->>>>>>> 9423a08f9c86b38819cd0e65d27e6c65b2d8469c
+
   "scripts": {
     "start": "node server.js"
   },
